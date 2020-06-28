@@ -4,7 +4,7 @@ Exchange Rate tool built with Javascript, HTML5, CSS3 and the Exchange rates API
 
 ## Try the application here
 
-[Exchange rate]()
+[Exchange rate](https://gabrielmxavier.github.io/Exchange-rate/)
 
 ## How to get the API KEY
 
