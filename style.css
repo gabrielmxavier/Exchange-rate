@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background: linear-gradient(235.04deg, rgba(0, 0, 0, 0.68) 22.49%, rgba(0, 0, 0, 0.612) 46.99%, rgba(0, 0, 0, 0.4896) 69.41%, rgba(0, 0, 0, 0) 90.67%), url(chris-liverani-NDfqqq_7QWM-unsplash.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/************************************************/
+/***************NAV BAR*********************/
+/************************************************/
+
+nav {
+    width: 100%;
+}
+
+.links {
+    position: relative;
+    float: right;
+}
+
+.link-a:link,
+.link-a:visited {
+    outline: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    margin: 8px;
+    letter-spacing: 1px;
+}
+
+.link-a:last-child {
+    border-left: 1px solid #FF5C00;
+    padding: 8px 13px 8px 16px;
+}
+
+.link-a:active {
+    transform: scale(0.9);
+}
+
+.link-a:hover {
+    color: #FF5C00;
+    transition: all .3s;
+}
+
+/*********************************************************/
+/********************MOBILE MENU************************/
+/*********************************************************/
+
+
+.display-mobile {
+
+    justify-content: center;
+    text-align: center;
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-y: hidden;
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.644);
+}
+
+.link-b {
+    margin: 45px 0px 45px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    padding: 0 20px 0 20px;
+}
+
+.link-b:last-child {
+    border-right: none;
+}
+
+.display-mobile a:hover {
+    color: #FF5C00;
+    transition: all 0.3s;
+}
+
+
+.mobile {
+    position: relative;
+    float: right;
+    z-index: 999999;
+}
+
+.menu {
+    font-size: 35px;
+    color: #FF5C00;
+}
+
+.openBtn {
+    font-size: 35px;
+    color: #FF5C00;
+}
+
+
+
+/*********************************************************/
+/********************CALCULATOR EXCHANGE************************/
+/*********************************************************/
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    padding: 5px 5px;
+    background-color: #FF5C00;
+    color: white;
+    font-size: 30px;
+    margin-left: 17px;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+p {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.currency {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 0 30px 0;
+}
+
+.currency select {
+    padding: 8px 2px 5px 11px;
+    appearance: none;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #FF5C00;
+    color: white;
+    font-size: 16px;
+}
+
+.currency input {
+    border: 1px solid #ff5e00;
+    background: transparent;
+    color: white;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;
+    width: 80px;
+    padding-left: 2px;
+}
+
+.swap-rate-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+select:focus,
+input:focus,
+button:focus {
+  outline: 0;
+}
