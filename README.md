@@ -17,5 +17,5 @@ You can check list of countries [clicking here](https://exchangeratesapi.io/).
 
 ## Project Overview
 
-![Exchange Rate]().
+![Exchange Rate](https://github.com/gabrielmxavier/Exchange-rate/blob/master/overview.jpg).
 
